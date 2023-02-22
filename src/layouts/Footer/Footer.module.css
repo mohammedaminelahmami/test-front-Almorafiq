@@ -1,0 +1,22 @@
+label input {
+    display: none;
+    /* Hide the default checkbox */
+}
+
+/* Style the artificial checkbox */
+label span {
+    height: 1.3rem;
+    width: 1.3rem;
+    border: 2px solid blue;
+    display: inline-block;
+    position: relative;
+}
+
+/* Style its checked state...with a ticked icon */
+[type=checkbox]:checked+span:before {
+    content: '\2714';
+    position: absolute;
+    top: -2px;
+    left: 3px;
+    color: #4B54E4;
+}
