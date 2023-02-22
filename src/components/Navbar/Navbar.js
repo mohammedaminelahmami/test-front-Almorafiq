@@ -18,9 +18,12 @@ const Navbar = () => {
     const location = useLocation();
 
     useEffect(()=>{
+        setPath("/home");
+    }, [])
+
+    useEffect(()=>{
         setPath(location.pathname);
     }, [location])
-
     return (
         <>
             <div className='w-full flex justify-between p-5'>
