@@ -9,11 +9,11 @@ const DigitalService = () => {
             <div className={styles.background2}></div>
         </div>
         <div className='flex flex-col gap-8 justify-center items-center text-white'>
-            <h1 className='mt-44'>
+            <h1 className='mt-44 md700:text-center'>
                 Unleach your creative potential with BizOne
             </h1>
 
-            <h1 className='text-4xl'>
+            <h1 className='text-4xl md700:text-3xl md700:text-center'>
                 Looking For Exculsive Digital Services?
             </h1>
           <button

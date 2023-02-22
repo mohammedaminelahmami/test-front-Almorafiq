@@ -15,20 +15,23 @@ const Home = () => {
           <div className='absolute w-full h-full bg-black opacity-50'></div>
           <div className={styles.image}></div>
         </div>
-        <div className='w-full mt-48 flex flex-col gap-2 text-white'>
-          <div className='text-xl font-normal'>
+
+        <div className='w-full mt-48 flex flex-col gap-2 text-white xxl:items-center'>
+          <div className='text-xl font-normal md_lg:text-center'>
             Quickly setup your website
           </div>
-          <div className='text-[3rem] font-medium'>
-            Style up Your<br></br>
+
+          <div className='w-[30rem] text-[3rem] font-medium xxl:text-[2rem] md:w-[20rem] md_lg:text-center'>
+            Style up Your
             Business Strategy
           </div>
 
-          <div className='text-xl font-normal'>it has all unique & new digital experience layouts</div>
-          <div></div>
+          <div className='text-xl font-normal md_lg:text-center'>
+            it has all unique & new digital experience layouts
+          </div>
         </div>
 
-        <div className='w-full flex gap-4 mt-28'>
+        <div className='w-full flex gap-4 mt-28 xxl:justify-center'>
           <button
             type='button'
             className='bg-secondary text-white font-medium rounded-sm w-36 h-10'>
@@ -50,7 +53,7 @@ const Home = () => {
         <DigitalService />
       </div>
 
-      <div className='container mx-auto mt-72'>
+      <div className='container mx-auto mt-72 xxl:mt-64 xl:mt-52 sm:mt-24'>
         <Features />
       </div>
 

@@ -1,0 +1,19 @@
+.centerAbsoluteElement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerAbsoluteElementX {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerAbs {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

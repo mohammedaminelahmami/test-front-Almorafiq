@@ -7,7 +7,7 @@ const FeatureComp = ({ img, text }) => {
             <img src={img} alt='check' className='w-full h-full' />
         </div>
         
-        <div className='text-sm'>
+        <div className='text-sm w-36'>
             {text}
         </div>
     </div>
