@@ -16,22 +16,22 @@ const Home = () => {
           <div className={styles.image}></div>
         </div>
 
-        <div className='w-full mt-48 flex flex-col gap-2 text-white xxl:items-center'>
+        <div className='w-full mt-48 flex flex-col gap-2 text-white xl:items-center p-5'>
           <div className='text-xl font-normal md_lg:text-center'>
             Quickly setup your website
           </div>
 
-          <div className='w-[30rem] text-[3rem] font-medium xxl:text-[2rem] md:w-[20rem] md_lg:text-center'>
+          <div className='w-[30rem] text-[3rem] font-medium xxl:text-[2rem] md:w-[20rem] xl:text-center'>
             Style up Your
             Business Strategy
           </div>
 
-          <div className='text-xl font-normal md_lg:text-center'>
+          <div className='text-xl font-normal xl:text-center'>
             it has all unique & new digital experience layouts
           </div>
         </div>
 
-        <div className='w-full flex gap-4 mt-28 xxl:justify-center'>
+        <div className='w-full flex gap-4 mt-28 xl:justify-center p-5'>
           <button
             type='button'
             className='bg-secondary text-white font-medium rounded-sm w-36 h-10'>
