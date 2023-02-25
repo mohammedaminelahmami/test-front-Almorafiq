@@ -15,7 +15,7 @@ const Offer = () => {
           <h1 className='text-3xl font-medium tracking-wide'>What we offer</h1>
         </div>
         
-        <div className='flex flex-wrap gap-y-16 mt-20 mx-20'>
+        <div className='grid lg:grid-cols-3 md_lg:grid-cols-1 grid-cols-3 gap-y-16 mt-20'>
           <OfferComp img={settings} title="Unlimited Features" text="keep away from people who try to belittle your ambitions. Small people always do that but the really great." />
           <OfferComp img={umbrella} title="Creative Design" text="keep away from people who try to belittle your ambitions. Small people always do that but the really great." />
           <OfferComp img={clock} title="Responsive Design" text="keep away from people who try to belittle your ambitions. Small people always do that but the really great." />
